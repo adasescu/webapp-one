@@ -25,3 +25,8 @@
 
 - [Grails Asset Pipeline Core documentation](https://www.asset-pipeline.com/manual/)
 
+## Command to generate project
+
+This project was generated using [Grails forge](https://start.grails.org/) with the following command
+
+`grails create-webapp --servlet=tomcat --jdk=11 --gorm=hibernate --test=spock --features=mysql,shade com.experiment.one.webapp-one`
